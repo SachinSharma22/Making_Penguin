@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 25px;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 80vw;
+    background-color: antiquewhite;
+    margin: auto;
+}
+.container{
+    position: relative;
+    left: 60vw;
+    top: 30px;
+}
+.job_desc{
+    font-size: 20px;
+   font-weight: bold; 
+    text-align: left;
+    padding-left: 50px;
+ #dev{
+    color: brown;
+     }
+}
+.portfolio{
+    font-size: 40px;
+    font-weight: bold;
+ #folio{
+    color: brown;
+     }
+}
+.line{
+    width: 70px;
+    height: 5px;
+    background-color: brown;
+    padding-left: 9px;
+    margin-top: 10px;
+    position: relative;
+    left: 9px;
+
+}
+.year{
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 20px;
+}
+.intro-container{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.intro_part{
+    padding: 20px;
+}
+#hey{
+    font-weight: bold;
+    font-size: 20px;
+    color: brown;
+}
+#there{
+    font-size: 15px;
+    font-weight: bold;
+}
+.im{
+    font-weight: bold;
+    font-size: 20px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 30px;
+    color: brown;
+}
+.line2{
+    height: 3px;
+    width: 225px;
+    background-color: brown;
+    margin: 20px;
+}
+.about-part{
+    display: flex;
+}
+.about{
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 160px;
+    left: 900px;
+    border: 1px solid brown;
+    border-radius: 30px;
+    transition: all 1s;
+    
+}
+img:hover{
+    scale: 1.1;
+    box-shadow: 5px 5px 10px #000;
+    transition: all ease 0.5s;
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+.skills{
+    padding: 60px;
+    display: flex;
+    gap: 80px;
+}
+.name:hover{
+    color: rgb(107, 21, 107);
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
